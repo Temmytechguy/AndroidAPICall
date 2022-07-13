@@ -59,7 +59,11 @@ public class MainActivity extends AppCompatActivity {
                     configureAdapterRecyclerViewFilm(response.body());
                 }
                 else{
+<<<<<<< HEAD
                     Log.e("apiCall", "Erreur dans l'appel " + response );
+=======
+                    Log.e("api Call is made", "Erreur dans l'appel " + response );
+>>>>>>> 04e69d9 (Initial commit)
 
                 }
             }
